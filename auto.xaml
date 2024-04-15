@@ -1,0 +1,20 @@
+﻿<Page x:Class="DemoEx.auto"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DemoEx"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="auto">
+
+    <Grid Background="White">
+        <TextBlock HorizontalAlignment="Left" Margin="57,23,0,0" TextWrapping="Wrap" Text="Авторизация " VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="274,150,0,0" TextWrapping="Wrap" Text="Логин" VerticalAlignment="Top" FontSize="22"/>
+        <TextBlock HorizontalAlignment="Left" Margin="274,238,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" FontSize="22"/>
+        <TextBox HorizontalAlignment="Left" Margin="400,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" x:Name="log_txt"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="400,238,0,0" VerticalAlignment="Top" Width="120" FontSize="20" x:Name="pass_txt"/>
+        <Button Content="Войти" HorizontalAlignment="Center" Margin="0,349,0,0" VerticalAlignment="Top" FontSize="24" Click="Auto"/>
+
+    </Grid>
+</Page>
